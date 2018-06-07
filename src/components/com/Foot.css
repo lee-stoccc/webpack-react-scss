@@ -1,0 +1,23 @@
+.foot{
+    display: flex;
+    text-align: center;
+    color: #333;
+    position: fixed;
+    bottom: 0;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.foot>div{
+    width: 25%;
+}
+.foot_c{
+    color:rosybrown;
+}
+.foot_d{
+    color: #222222;
+}
+a{
+    text-decoration: none;
+    color: #222222;
+}

@@ -3,8 +3,9 @@ import React,{Component} from 'react'
 // 第一种方法是写一个类，但必须继承于Component
 class Person extends Component {
         constructor(props){
-            super();
-            super(props)
+
+          super(props);
+          props={}
         };
     state={  //相当于小程序和vue 的data
         persons:[
@@ -13,9 +14,7 @@ class Person extends Component {
         ],
         job:123
     };
-    props={    // props 传值
 
-    };
     say=(newName)=>{   //箭头函数  react 方法直接写
       this.setState(   // setState 更改值  相当于小程序的setData 函数
           {persons:[{name:newName}]}
