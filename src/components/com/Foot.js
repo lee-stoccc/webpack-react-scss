@@ -25,9 +25,9 @@ import {Link,withRouter} from 'react-router-dom'
         return(
             <div className="foot">
                                                            {/*带参数跳转                         /!*子组件接收父组件过来的props参数，动态改变class类*!/*/}
-                <div onClick={this.go.bind(this,'indexs',{ischo:'0'})} data-cho="0" className={this.props.ischo==='0'?'foot_c':'foot_d'}>首页</div>
-                <div onClick={this.go.bind(this,'trade',{ischo:'1'})}  data-cho="1" className={this.props.ischo==='1'?'foot_c':'foot_d'}>交易中心</div>
-                <div onClick={this.go.bind(this,'mine',{ischo:'2'})}  data-cho="3" className={this.props.ischo==='2'?'foot_c':'foot_d'}>个人中心</div>
+                <div onClick={this.go.bind(this,'/',{ischo:'0',header:'Index'})} data-cho="0" className={this.props.ischo==='0'?'foot_c':'foot_d'}>Index</div>
+                <div onClick={this.go.bind(this,'trade',{ischo:'1',header:'Trade'})}  data-cho="1" className={this.props.ischo==='1'?'foot_c':'foot_d'}>Trade</div>
+                <div onClick={this.go.bind(this,'mine',{ischo:'2',header:'Center'})}  data-cho="3" className={this.props.ischo==='2'?'foot_c':'foot_d'}>Mine</div>
             </div>
         )
     }

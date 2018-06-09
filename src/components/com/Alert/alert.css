@@ -1,0 +1,16 @@
+.dis{
+    display: none;
+}
+
+.dis_show{
+    text-align: center;
+    position: fixed;
+    top: 20%;
+    width: 20%;
+    left: 40%;
+    background-color: antiquewhite;
+    color: brown;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: solid #eee 1px;
+}
