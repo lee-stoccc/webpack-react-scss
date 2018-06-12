@@ -8,7 +8,9 @@ import Index from './components/Index/Index.js'
 import Trade from './components/Trade/Trade.js'
 import Mine from './components/mine/Mine.js'
 import Alert from './components/com/Alert/Alert'
+import Select from './components/com/select/Select'
 import TradeDetail from './components/TradeDetail/TradeDetail'
+
 
 
 // React的Component方法 的 原型对象上添加方法
@@ -50,6 +52,7 @@ ReactDOM.render(
              <Route path="/mine"   component={Mine}/>
              <Route path="/alert" component={Alert}/>
              <Route path='/detail' component={TradeDetail}/>
+             <Route path='/select' component={Select}/>
         </Switch>
     </Router>,
     document.getElementById('root')

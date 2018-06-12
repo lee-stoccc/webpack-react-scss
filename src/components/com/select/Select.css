@@ -1,0 +1,19 @@
+.select_cho_1{
+    display: flex;
+
+}
+.select_cho_1>div{
+    width: 33%;
+    text-align: center;
+    border: 1px solid #eee;
+    height: 2rem;
+    line-height: 2rem;
+}
+
+.select_cho_2 div div{
+    border: 1px solid #eee;
+
+}
+.select_isShow{
+    display: none;
+}

@@ -26,10 +26,10 @@ export default class TradeDetail extends React.Component {
             <div>
                 <div>
                     <Header header={this.state.header}/>
-                    <div className="bule" style={this.state.type=='0'?this.show:this.dis}>one</div>
-                    <div className="bule" style={this.state.type=='1'?this.show:this.dis}>two</div>
-                    <div className="bule" style={this.state.type=='2'?this.show:this.dis}>three</div>
-                    <div className="bule" style={this.state.type=='3'?this.show:this.dis}>four</div>
+                    <div className="bule" style={this.state.type===0?this.show:this.dis}>one</div>
+                    <div className="bule" style={this.state.type===1?this.show:this.dis}>two</div>
+                    <div className="bule" style={this.state.type===2?this.show:this.dis}>three</div>
+                    <div className="bule" style={this.state.type===3?this.show:this.dis}>four</div>
                     <Foot ischo={this.state.ischo}/>
                 </div>
             </div>
