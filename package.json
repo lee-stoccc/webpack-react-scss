@@ -16,6 +16,7 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
+    "axios": "^0.18.0",
     "css-loader": "^0.28.11",
     "react-redux": "^5.0.7",
     "sass-loader": "^7.0.1",
