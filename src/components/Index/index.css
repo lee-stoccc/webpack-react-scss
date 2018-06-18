@@ -6,9 +6,10 @@
     width: 80% !important;
     left: 10%;
     margin-top: 1rem;
+    font-size:16px !important;
 }
 .foot_t{
-    font-size:30px;
+    font-size:14px;
 }
 .swiper{
     width: 100%;
